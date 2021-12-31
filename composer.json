@@ -2,9 +2,7 @@
     "name": "azizulhasan/wp-admin-notice",
     "description": "",
     "keywords": [ "notice"],
-    "require": {
-        "azizulhasan/wp-admin-notice": "1.0.0"
-    },
+    "require": {},
     "autoload": {
         "psr-4": {
             "WPAdminNotice\\": "App/"
