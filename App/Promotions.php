@@ -1,6 +1,6 @@
 <?php
 
-namespace WPAdminNotice;
+namespace azizulhasan\WPAdminNotice;
 /**
  * Plugin_Name Admin notices helper methods
  *

@@ -1,10 +1,9 @@
 <?php
 
-namespace WPAdminNotice;
+namespace azizulhasan\WPAdminNotice;
 
-require_once './vendor/autoload.php';
 
-use WPAdminNotice\Promotions;
+
 /**
  * Limited time promotion class
  *
@@ -23,8 +22,10 @@ class LimitedTimePromotion {
      * LimitedTimePromotion constructor
      */
     public function __construct( $json_url, $template_name, $template_path , $default_path = '') {
-        $this->template_path = $template_path;
-        $this->template_name = $template_name;
+        $current_dir =  plugin_dir_url(__DIR__);
+        $this->template_name = ($template_name)? $template_name : 'default-template.php';
+        $this->template_path = ($template_path)? $template_path : $current_dir.'Template/default-template.php' ;
+        $this->default_path = ($default_path)? $default_path : $current_dir.'Template/default-template.php' ;
         $this->promotions = new Promotions($json_url, $template_name, $template_path , $default_path );
         add_action( 'admin_notices', [ $this, 'render_promo_notices_html' ] );
         add_action( 'wp_ajax_plugin_name_dismiss_limited_time_promotional_notice', [ $this, 'dismiss_limited_time_promo' ] );

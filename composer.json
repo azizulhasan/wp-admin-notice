@@ -6,7 +6,7 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "WPAdminNotice\\": "App/"
+            "azizulhasan\\WPAdminNotice\\": "App/"
         }
     },
     "license": "MIT",
