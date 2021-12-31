@@ -1,6 +1,7 @@
 {
     "name": "azizulhasan/wp-admin-notice",
     "description": "",
+    "version": "1.0.0",
     "keywords": [ "notice"],
     "require": {},
     "autoload": {
