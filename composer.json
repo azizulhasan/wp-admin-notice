@@ -3,7 +3,7 @@
     "description": "",
     "keywords": [ "notice"],
     "require": {
-        "php": ">=7.0"
+        "azizulhasan/wp-admin-notice": ">=1.0.0*@dev"
     },
     "autoload": {
         "psr-4": {
