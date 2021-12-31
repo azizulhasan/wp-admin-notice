@@ -9,7 +9,6 @@
             "WPAdminNotice\\": "App/"
         }
     },
-    "minimum-stability": "dev",
     "license": "MIT",
     "authors": [
         {
