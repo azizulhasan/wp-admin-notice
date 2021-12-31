@@ -3,13 +3,14 @@
     "description": "",
     "keywords": [ "notice"],
     "require": {
-        "azizulhasan/wp-admin-notice": ">=1.0.0*@dev"
+        "azizulhasan/wp-admin-notice": "1.0.0"
     },
     "autoload": {
         "psr-4": {
             "WPAdminNotice\\": "App/"
         }
     },
+    "minimum-stability": "dev",
     "license": "MIT",
     "authors": [
         {
