@@ -8,5 +8,6 @@
             "email": "azizulhasan.cr@gmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "minimum-stability": "dev"
 }
