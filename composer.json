@@ -1,0 +1,12 @@
+{
+    "name": "azizulhasan/wp-admin-notice",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Azizul Hasan",
+            "email": "azizulhasan.cr@gmail.com"
+        }
+    ],
+    "require": {}
+}
