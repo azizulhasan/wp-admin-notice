@@ -1,13 +1,20 @@
 {
     "name": "azizulhasan/wp-admin-notice",
-    "type": "library",
+    "description": "",
+    "keywords": [ "notice"],
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "WPAdminNotice\\": "App/"
+        }
+    },
     "license": "MIT",
     "authors": [
         {
             "name": "Azizul Hasan",
             "email": "azizulhasan.cr@gmail.com"
         }
-    ],
-    "require": {},
-    "minimum-stability": "dev"
+    ]
 }

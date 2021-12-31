@@ -1,4 +1,6 @@
 <?php
+
+namespace WPAdminNotice;
 /**
  * Plugin_Name Admin notices helper methods
  *

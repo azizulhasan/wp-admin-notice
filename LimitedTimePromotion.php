@@ -1,9 +1,10 @@
 <?php
 
+namespace WPAdminNotice;
 
-include  'Promotions.php';
+require_once './vendor/autoload.php';
 
-
+use WPAdminNotice\Promotions;
 /**
  * Limited time promotion class
  *
