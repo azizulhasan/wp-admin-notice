@@ -1,8 +1,9 @@
 <?php
+
 /**
+ * Notice logo url and promotion url.
  * @var array $notice
  */
-
 $current_dir =  plugin_dir_url(__DIR__);
 $notice['logo_url'] = ($notice['logo_url'])? $notice['logo_url'] :   $current_dir.'Images/logo.svg';
 $notice['promotion_icon_url'] = ($notice['promotion_icon_url']) ? $notice['promotion_icon_url']:  $current_dir.'Images/promotion.svg';
